@@ -1,0 +1,468 @@
+/*
+Theme Name: Esha Raicar
+Author: Esha Raicar
+Description: Rio Island website, a website for reserving a room at this amazing hotel.
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Arvo:400,700|Monofett|Montserrat:400,700");
+
+
+body {
+    opacity: 0.9;
+    background-color: #fae8e0;
+}
+
+header {
+    text-align: center;
+}
+
+header > h1 {
+    font-family: "Broadway";
+}
+
+html {
+    margin: auto;
+    width: 70%;
+    font-family: "Times New Roman", Times, serif;
+    background-image: url("images/background.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.menu-header-menu-container {
+    background-color: #9f9483;
+}
+
+.menu-footer-menu-container {
+    background-color: #9f9483;
+    text-align: center;
+}
+
+.menu-item {
+    display: inline-block;
+    background-color: #6a7b59;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 5px;
+}
+
+#menu-footer-menu > .menu-item {
+    background-color: #6a7b59;
+    border-radius: 25px;
+}
+
+.menu-item > a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 27px;
+}
+
+main {
+    padding: 10px;
+}
+
+.menu-footer-menu-container > ul {
+    padding-inline-start: 0px;
+    margin-top: 10px;
+}
+
+.menu-header-menu-container > ul {
+    padding-inline-start: 0px;
+    margin-bottom: 10px;
+}
+
+h1 > a {
+    text-decoration: none;
+    color: navy;
+}
+
+h2 {
+    color: black;
+    font-weight: bolder;
+}
+
+h3,
+div > a > h2,
+.content-post > h2 {
+    color: navy;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-container > div {
+    margin: 10px;
+    padding: 10px;
+    font-size: 10px;
+    border: 1px solid navy;
+    flex-grow: 1;
+    width: 17.5%;
+    max-width: 17.5%;
+    height: auto;
+}
+
+.flex-container img {
+    object-fit: cover;
+    height: 210px;
+    width: 100%;
+}
+
+.flex-container a {
+    width: 100%;
+}
+
+.content-post {
+    padding: 10px;
+    position: relative;
+}
+
+.content-post img {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    float: right;
+}
+
+.flex-container-post {
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.flex-container-post a {
+    text-decoration: none;
+}
+
+.flex-container-post > .non_post_style {
+    margin: 10px;
+    flex-grow: 1;
+    width: 20%;
+    max-width: 25%;
+}
+
+.flex-container-post img {
+    object-fit: cover;
+    width: 100%;
+    height: 210px;
+}
+
+#post_style {
+    padding: 10px;
+    border: 1px solid navy;
+    margin: 10px;
+    width: 100%;
+}
+
+#post_style img {
+    float: right;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#category {
+    margin-bottom: 10px;
+    float: right;
+}
+
+#category > ul > li {
+    list-style: none;
+    color: #6a7b59;;
+    float: right;
+    margin-bottom: 10px;
+    margin-right: 5%;
+}
+
+#category > a {
+    color: #6a7b59;;
+}
+
+.write-review,
+.new-booking {
+    font-family: "Montserrat";
+}
+
+.write-review > h2,
+.new-booking > h2 {
+    margin: 0.5rem;
+}
+
+h2,
+h3 {
+    font-family: arvo;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+label {
+    margin: 1rem;
+}
+
+button[type="submit"] {
+    background-color: #72a0c1;
+    color: white;
+    font-size: 1.1rem;
+    padding: 0.5rem;
+    border: 3px solid #72a0c1;
+    border-radius: 5px;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #72a0c1;
+}
+
+textarea,
+input,
+select {
+    border: 2px solid #72a0c1;
+    border-radius: 5px;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    height: 6rem;
+    resize: vertical;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+label {
+    margin: 0.5rem;
+    width: 100%;
+}
+
+label:last-of-type {
+    width: 100%;
+}
+
+label:first-of-type {
+    width: 100%;
+    display: block;
+}
+
+label:first-of-type input {
+    flex-grow: 1;
+}
+
+.comment > * {
+    margin: 0.5rem;
+}
+
+.comment h3,
+.comment-text {
+    width: 100%;
+}
+
+.ID,
+.date {
+    background-color: #564946;
+    margin: 0;
+    padding: 0.5rem;
+}
+
+.ID {
+    border-radius: 10px 0 0 0;
+}
+
+.date {
+    border-radius: 0 0 10px 0;
+}
+
+.comment {
+    background-color: rgb(133, 107, 108);
+    box-shadow: 0px 0px 0px #564946;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.comment-text {
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px rgb(190, 0, 100);
+    padding: 1rem;
+}
+
+.write-comment,
+.write-review,
+.contact-us,
+.new-booking {
+    border: 10px dashed #564946;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.write-comment h2,
+.write-review h2,
+.contact-us h2,
+.documentation h2,
+.new-booking h2 {
+    font-size: 3rem;
+    padding-left: 2rem;
+    color: #72a0c1;
+    text-shadow: 2px 2px 3px #564946;
+}
+
+#animation {
+    padding-right: 5px;
+    animation-name: headerAnimation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse;
+}
+
+.error {
+    display: block;
+    color: red;
+}
+
+@keyframes headerAnimation {
+    0% {
+        transform: translate(-400px, 0px);
+    }
+    100% {
+        transform: translate(400px, 0px);
+    }
+}
+
+.comment > h3 {
+    color: white;
+}
+
+#animation {
+    color: red;
+}
+
+#history {
+    color: black;
+    text-align: center;
+    font-family: "Papyrus", "Courier New", "Times New Roman";
+    font-size: 27px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+#welcome {
+    color: royalblue;
+    font-weight: bolder;
+    font-size: 33px;
+}
+.catergory_post img:hover {
+    transform: scale(1.2);
+    transition-delay: 0.2s;
+}
+
+@media only screen and (max-width: 800px) {
+    .menu-footer-menu-container > ul {
+        padding-inline-start: 0px;
+        margin-top: 0px;
+    }
+
+    .menu-header-menu-container > ul {
+        padding-inline-start: 0px;
+        margin-bottom: 0px;
+    }
+
+    .menu-item {
+        display: block;
+        background-color: #6a7b59;;
+        border: none;
+        padding: 5px;
+    }
+
+    .menu-item > a {
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+    }
+
+    .flex-container {
+        display: block;
+        flex-wrap: wrap;
+    }
+
+    .flex-container > div {
+        margin: 10px;
+        padding: 10px;
+        font-size: 10px;
+        border: 1px solid navy;
+        flex-grow: 1;
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0px;
+    }
+
+    .flex-container img {
+        object-fit: cover;
+        width: 100%;
+        height: auto;
+    }
+    html {
+        margin: auto;
+        width: 100%;
+        font-family: "Times New Roman", Times, serif;
+    }
+    main {
+        padding: 0px;
+    }
+
+    .flex-container-post {
+        display: block;
+        flex-wrap: wrap;
+        text-decoration: none;
+    }
+
+    .flex-container-post > .non_post_style {
+        margin: 10px;
+        flex-grow: 1;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .flex-container-post img {
+        object-fit: cover;
+        width: 88%;
+        height: auto;
+    }
+
+    .content-post img {
+        top: 0;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        float: none;
+        object-fit: cover;
+    }
+
+    .catergory_post > h3 {
+        font-size: 20px;
+    }
+}
+
+
+#accordion .ui-accordion-header { padding: 20px; }
+
+.server_errors {
+    color: red;
+    font-weight: bold;
+}
