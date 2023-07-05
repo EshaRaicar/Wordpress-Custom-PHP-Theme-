@@ -1,2 +1,4 @@
 # Wordpress-Custom-PHP-Theme-
-A custom php theme in Wordpress
+
+- This is a custom PHP theme created for Wordpress
+- "phpMyAdmin" and "XAMPP" was used alongside to get this project working
