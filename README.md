@@ -7,4 +7,4 @@
 	- You're able to book a villa of your choice, and you can also manage your bookings ex. delete a booking you've made.
   - A user can also view the reviews posted by previous customers of the resort and you can even leave a review too.
 
-- "phpMyAdmin" and "XAMPP" was used alongside to get this project working
+- "phpMyAdmin" and "XAMPP" were used alongside to get this project working
